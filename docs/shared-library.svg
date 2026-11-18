@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title description">
+  <title id="title">One shared skills library for AI TaskFlow and TF CODE</title>
+  <desc id="description">Choose a TaskFlow or community skill, then use it in TaskFlow AI chat or install it in a TF CODE workspace and sync it to the same account.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151522"/>
+      <stop offset="1" stop-color="#0b1014"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6a2ff"/>
+      <stop offset="1" stop-color="#79e3c3"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10" fill="none" stroke="#9584dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #f0eff8; }
+      .muted { fill: #aca9bb; }
+      .card { fill: #171923; stroke: #383746; stroke-width: 1.5; }
+      .small { font-size: 17px; }
+    </style>
+  </defs>
+  <rect width="1200" height="620" rx="26" fill="url(#background)"/>
+  <path d="M0 174H1200" stroke="#292936"/>
+  <text x="600" y="76" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="3" fill="#91e4c9">AI TASKFLOW · SHARED SKILLS</text>
+  <text x="600" y="125" text-anchor="middle" font-size="34" font-weight="700">One skill library, two workspaces</text>
+  <text x="600" y="155" text-anchor="middle" class="muted small">Choose instructions once. Use them where you work.</text>
+
+  <rect class="card" x="48" y="244" width="300" height="226" rx="20"/>
+  <rect x="48" y="244" width="6" height="226" rx="3" fill="#a794ff"/>
+  <text x="78" y="286" font-size="22" font-weight="700">Shared catalog</text>
+  <text x="78" y="320" class="muted small">AI-TASKFLO-SKILLS</text>
+  <path d="M78 342H318" stroke="#373644"/>
+  <circle cx="87" cy="374" r="5" fill="#b6a2ff"/>
+  <text x="104" y="380" class="small">TaskFlow skills</text>
+  <circle cx="87" cy="412" r="5" fill="#79e3c3"/>
+  <text x="104" y="418" class="small">Searchable skills.sh library</text>
+  <text x="78" y="449" class="muted" font-size="14">Reviewed SKILL.md instructions</text>
+
+  <path d="M348 357H432" stroke="url(#accent)" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="444" y="315" width="304" height="84" rx="18" fill="#201f2d" stroke="#7465a7" stroke-width="1.5"/>
+  <text x="596" y="350" text-anchor="middle" font-size="19" font-weight="700">Your TaskFlow account</text>
+  <text x="596" y="378" text-anchor="middle" class="muted small">Saved skills follow your account</text>
+  <path d="M596 399V448H414V485" fill="none" stroke="#7465a7" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M596 399V448H786V485" fill="none" stroke="#7465a7" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect class="card" x="68" y="492" width="438" height="96" rx="18"/>
+  <text x="94" y="529" font-size="20" font-weight="700">AI TaskFlow</text>
+  <text x="94" y="559" class="muted small">Use saved skills in AI chat with your selected provider.</text>
+
+  <rect class="card" x="694" y="492" width="438" height="96" rx="18"/>
+  <text x="720" y="529" font-size="20" font-weight="700">TF CODE</text>
+  <text x="720" y="559" class="muted small">Install to .agents/skills/ and sync to your account.</text>
+</svg>

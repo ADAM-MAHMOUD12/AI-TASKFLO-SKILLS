@@ -2,6 +2,8 @@
 
 The shared, open skills library for AI TaskFlow and TF CODE.
 
+![Shared skills flow between AI TaskFlow and TF CODE](docs/shared-library.svg)
+
 The root `catalog.json` publishes reusable `SKILL.md` instructions. AI TaskFlow
 can add a selected skill to the signed-in user's chat library. TF CODE can add
 the same skill to the active workspace and sync it to that account, so it is
@@ -15,6 +17,11 @@ available in AI TaskFlow chats using the account's configured AI provider.
 - Public skills can also be searched in the skills.sh library. They remain
   attributed to their original source and are downloaded only after the user
   chooses to add one.
+
+The web app and editor read this catalog from the repository's `main` branch.
+To publish a new TaskFlow skill, add its `SKILL.md` under `skills/<id>/`, add a
+matching entry to `catalog.json`, then commit and push both files to `main`.
+The store lists catalog entries; a file that is not listed is not discoverable.
 
 ## Catalog format
 
