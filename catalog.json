@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "themes": [],
+  "extensions": [],
+  "skills": [
+    {
+      "id": "plan",
+      "name": "خطة المشروع",
+      "description": "تحويل الهدف إلى خطة تنفيذ واضحة ومراحل قابلة للمتابعة.",
+      "asset": "skills/plan/SKILL.md"
+    },
+    {
+      "id": "brainstorm",
+      "name": "عصف ذهني",
+      "description": "توليد أفكار متنوعة ثم اختيار المقترحات العملية.",
+      "asset": "skills/brainstorm/SKILL.md"
+    },
+    {
+      "id": "research",
+      "name": "بحث وتقييم",
+      "description": "بحث منظم مع تقييم الأدلة والقيود ومصادر المعلومات.",
+      "asset": "skills/research/SKILL.md"
+    },
+    {
+      "id": "debug",
+      "name": "تصحيح",
+      "description": "تشخيص الأعطال من الأدلة والتحقق من الإصلاح.",
+      "asset": "skills/debug/SKILL.md"
+    },
+    {
+      "id": "summarize",
+      "name": "تلخيص",
+      "description": "تلخيص المحتوى مع الحفاظ على الحقائق والنتائج المهمة.",
+      "asset": "skills/summarize/SKILL.md"
+    },
+    {
+      "id": "content",
+      "name": "كتابة محتوى",
+      "description": "كتابة محتوى عربي واضح ومناسب للجمهور والغرض.",
+      "asset": "skills/content/SKILL.md"
+    },
+    {
+      "id": "ui-ux-designer",
+      "name": "مصمم UI/UX",
+      "description": "تصميم واجهات واضحة ومميزة ومراعية لإمكانية الوصول.",
+      "asset": "skills/ui-ux-designer/SKILL.md"
+    }
+  ]
+}
